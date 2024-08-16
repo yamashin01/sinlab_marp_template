@@ -1,0 +1,66 @@
+/* @theme sinlabTheme */
+ 
+@import 'default'; 
+
+section {
+  min-height: 80%;
+  min-width: 80%;
+  color: #555;
+}
+
+section.title {
+  background-image: url('images/sinlab_title_template.png');
+  background-repeat: no-repeat;
+  background-size: 1280px;
+}
+
+section.title h1 {
+  font-size: 80px;
+  text-align: center;
+  color: #fff;
+}
+
+section.title p {
+  font-size: 64px;
+  text-align: center;
+  color: #fff;
+}
+
+section.page {
+  background-image: url('images/sinlab_normal_template.png');
+  background-repeat: no-repeat;
+  background-size: 1280px;
+  font-size: 40px;
+}
+section.page h1 {
+  font-size: 64px;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+
+section.page p {
+  position: absolute;
+  font-size: 40px;
+  top: 150px;
+  left: 40px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  padding-bottom: 0px; /* 本文の下に150pxの余白を追加 */
+}
+
+section.last {
+  background-image: url('images/sinlab_last_template.png');
+  background-repeat: no-repeat;
+  background-size: 1280px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.normal-textbox {
+  position: absolute;
+  font-size: 40px;
+  top: 150px;
+  left: 40px;
+}
+
